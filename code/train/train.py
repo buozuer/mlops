@@ -102,6 +102,7 @@ def main(args):
     run.log('recall', recall)
     
     # f1-score for X_test
+    #comment
     f1 = f1_score(svm_predictions, data["test"]["y"], average='weighted')
     print('F1-Score of SVM classifier on test set: {:.2f}'.format(f1))
     run.log('f1-score', f1)
