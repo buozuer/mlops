@@ -6,6 +6,8 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
+#comment 6
+
 from sklearn import datasets
 from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
