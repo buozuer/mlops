@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
-#comment7
+#comment8
 
 from sklearn import datasets
 from sklearn.svm import SVC
